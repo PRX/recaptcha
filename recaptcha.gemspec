@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency "rake", "~> 0.8.7"
   s.add_development_dependency "activesupport", "~> 2.3.10"
   s.add_development_dependency "i18n", "~> 0.6.11"
-  s.add_development_dependency "minitest", "= 5.11.3"
+  s.add_development_dependency "minitest", "~> 5.11.3"
   s.add_development_dependency "minitest-hooks", "~> 1.4.2"
   s.add_development_dependency "webmock", "~> 1.24.6"
   s.add_development_dependency "hashdiff", "< 0.3.6"
