@@ -1,12 +1,12 @@
 require "./lib/recaptcha/version"
 
 Gem::Specification.new do |s|
-  s.name        = "recaptcha"
+  s.name        = "recaptcha-prx"
   s.version     = Recaptcha::VERSION
-  s.authors     = ["Jason L Perry"]
-  s.email       = ["jasper@ambethia.com"]
+  s.authors     = ["Jason L Perry", "Andrew Kuklewicz"]
+  s.email       = ["jasper@ambethia.com", "kookster@gmail.com"]
   s.homepage    = "http://github.com/ambethia/recaptcha"
-  s.summary     = s.description = "Helpers for the reCAPTCHA API"
+  s.summary     = s.description = "Helpers for the reCAPTCHA API, updated by PRX to work with Ruby 1.8.7 and Rails 2.3"
   s.license     = "MIT"
   s.required_ruby_version = '>= 1.8.7'
 
